@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+:root {
+  --red: hsl(0, 100%, 74%);
+  --green: hsl(154, 59%, 51%);
+  --blue: hsl(248, 32%, 49%);
+  --dark-blue: hsl(249, 10%, 26%);
+  --grayish-blue: hsl(246, 25%, 77%);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('./images/bg-intro-desktop.png');
+  background-color: var(--red);
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  overflow: hidden;
+}
+
+.left {
+  width: 50vw;
+  height: 100vh;
+  color: white;
+  padding: 30vh 10vw;
+  padding-right: 0;
+}
+
+.left h1 {
+  font-size: 3rem;
+  line-height: 3.3rem;
+}
+
+.left p {
+  font-weight: 300;
+  max-width: 40vw;
+}
+
+.right {
+  width: 50vw;
+  height: 100vh;
+  text-align: center;
+}
+
+.right .try {
+  background-color: var(--blue);
+  padding: 15px 0;
+  color: white;
+  text-align: center;
+  max-width: 35vw;
+  margin: 0 auto;
+  margin-top: 13vh;
+  margin-left: -5vw;
+  border-radius: 10px;
+  box-shadow: 0 6px hsl(249, 10%, 26%, 0.25);
+}
+
+.form {
+  margin: 0 auto;
+  padding: 28px 0;
+  margin-top: 3vh;
+  margin-left: -5vw;
+  background-color: white;
+  border-radius: 10px;
+  max-width: 35vw;
+  box-shadow: 0 8px hsl(249, 10%, 26%, 0.25);
+}
+
+.input {
+  margin: 0;
+  width: 80%;
+  margin: 10px;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid rgba(103, 128, 159, 0.3);
+  padding-left: 20px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.input:focus {
+  border: 1px solid var(--blue);
+}
+
+.btn {
+  margin-top: 10px;
+  width: 85%;
+  height: 50px;
+  border-radius: 5px;
+  background-color: var(--green);
+  color: white;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-color: hsl(154, 59%, 51%, 0.50);
+  border-right: none;
+  border-width: 3px;
+  transition: background-color 200ms ease;
+}
+
+.btn:hover {
+  background-color: hsl(154, 59%, 51%, 0.8);
+}
+
+.tnc {
+  font-size: 0.65rem;
+  color: var(--grayish-blue);
+}
+
+.tnc span {
+  color: var(--red);
+}
