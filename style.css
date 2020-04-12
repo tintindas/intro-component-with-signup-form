@@ -188,4 +188,9 @@ body {
   .warning {
     padding-right: 25px;
   }
+
+  .tnc {
+    max-width: 60vw;
+    margin-left: 10vw;
+  }
 }
