@@ -27,16 +27,24 @@
         Try it free 7 days then $20/mo. thereafter
      </p>
 
-     <form class="form">
-       <input type="text" class="input" id="fName" placeholder="First Name">
-       <input type="text" class="input" id ="lName" placeholder="Last Name">
-       <input type="text" class="input" id="email" placeholder="Email Address">
-       <input type="text" class="input" id="password" placeholder="Password">
+     <form class="form" id="form">
+       <input type="text" class="input" id="fName" placeholder="First Name" autocomplete="off">
+       <img src="./images/icon-error.svg" alt="" class="fName icon hidden">
+       <p class="fName warning hidden">First Name cannot be empty</p>
+       <input type="text" class="input" id ="lName" placeholder="Last Name" autocomplete="off">
+       <img src="./images/icon-error.svg" alt="" class="lName icon hidden">
+       <p class="lName warning hidden">Last Name cannot be empty</p>
+       <input type="text" class="input" id="email" placeholder="Email Address" autocomplete="off">
+       <img src="./images/icon-error.svg" alt="" class="email icon hidden">
+       <p class="email warning hidden">Looks like this is not an email</p>
+       <input type="text" class="input" id="password" placeholder="Password" autocomplete="off">
+       <img src="./images/icon-error.svg" alt="" class="password icon hidden">
+       <p class="password warning hidden">Password cannot be empty</p>
        <button type="submit" class="btn">Claim your free trial</button>
        <p class="tnc">By clicking the button, you are agreeing to our <span>Terms and Services</span></p>
      </form>
 
   </div>
-
+  <script src="./index.js"></script>
 </body>
 </html>
