@@ -53,6 +53,10 @@ body {
   box-shadow: 0 6px hsl(249, 10%, 26%, 0.25);
 }
 
+.bold {
+  font-weight: 600;
+}
+
 .form {
   margin: 0 auto;
   padding: 25px 0;
